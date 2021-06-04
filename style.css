@@ -1,0 +1,30 @@
+body{
+    background-color: rgba(106, 253, 106, 0.575);  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#board{
+    width: 90vmin;
+    height: 92vmin;
+    background: linear-gradient(green,rgba(210, 255, 9, 0.514));
+    border: 2px solid ;
+    display: grid;
+    grid-template-columns: repeat(18,1fr);
+    grid-template-rows: repeat(18,1fr);
+}
+
+.snack{
+
+    background:linear-gradient(black,gray);
+    border-radius: 9px;
+}
+.head{
+    background-color: blue;
+}
+.food{
+
+    background:linear-gradient(rgb(241, 7, 7),rgb(26, 10, 10));
+
+}
